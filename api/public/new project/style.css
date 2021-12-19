@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(technology-computer-creative-design.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: thistle;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: let;
+    height: 80px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: gold;
+    color: thistle;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    transition: 0.4s ease-out;
+}
+ul li a:hover{
+    color: rgb(151, 202, 31);
+}
+.search{
+    width: 380px;
+    float: left;
+    margin-left: 900px;
+}
+.srch{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 170px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: 15px;
+    color: thistle;
+    border-right: none;
+    font-size: 18px;
+    float: left;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    background: rgb(125, 146, 125);
+    border: 2px solid thistle;
+    margin-top: 15px;
+    color: black;
+    font-size: 25px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: orangered;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 80px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: cornflowerblue;
+}
+
+.content h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 14%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 45px;
+    background: thistle;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: rgb(151, 202, 31);
+}
+
+.content span{
+    color: white;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(168, 137, 137, 0.8)50%, rgba(156, 128, 128, 0.8)50%);
+    position: absolute;
+    top: -30px;
+    left: 600px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-color: thistle;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: palegoldenrod;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(206, 189, 8);
+    font-family: sans-serif;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: thistle;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(151, 202, 31);
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: rgb(151, 202, 31);
+    color: thistle;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: black;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.icon ion-icon{
+    color: thistle;
+    font-size: 30px;
+    padding-left: 16px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    color: rgb(151, 202, 31);
+}
